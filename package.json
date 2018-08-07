@@ -1,0 +1,30 @@
+{
+  "name": "heroku-node-js-example",
+  "version": "0.1.0",
+  "description": "A Node.js app using the SparkPost Heroku add-on",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "bootstrap": "^3.3.5",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "jquery": "^3.0.0",
+    "css":"^2.2.3",
+    "sparkpost": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "script/copy-assets"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "email"
+  ],
+  "author": "hudson",
+  "license": "Apache-2.0",
+  "bugs": {
+  }
+}
